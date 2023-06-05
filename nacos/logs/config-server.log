@@ -1,0 +1,406 @@
+2023-06-05 14:35:08,589 INFO notifyConnectTimeout:200
+
+2023-06-05 14:35:08,594 INFO notifySocketTimeout:8000
+
+2023-06-05 14:35:08,594 INFO isHealthCheck:true
+
+2023-06-05 14:35:08,594 INFO maxHealthCheckFailCount:12
+
+2023-06-05 14:35:08,595 INFO maxContent:10485760
+
+2023-06-05 14:35:11,805 INFO use local db service for init
+
+2023-06-05 14:35:13,335 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2023-06-05 14:35:13,338 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2023-06-05 14:35:13,396 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,442 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,461 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,476 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,490 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,508 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,522 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,536 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,550 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,568 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,582 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,597 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,612 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,627 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,642 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2023-06-05 14:35:13,691 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL230530214235670' defined on 'USERS'.
+
+2023-06-05 14:35:13,702 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'UK_USERNAME_ROLE' defined on 'ROLES'.
+
+2023-06-05 14:35:13,703 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
+
+2023-06-05 14:35:13,703 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-06-05 14:35:13,703 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-06-05 14:35:13,703 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-06-05 14:35:13,703 INFO use StandaloneDatabaseOperateImpl
+
+2023-06-05 14:35:14,485 WARN DumpService start
+
+2023-06-05 14:35:14,487 INFO start clear all config-info.
+
+2023-06-05 14:35:14,488 WARN clear all config-info failed.
+
+2023-06-05 14:35:14,488 WARN clear all config-info-tenant failed.
+
+2023-06-05 14:35:14,495 INFO start clear all config-info-beta.
+
+2023-06-05 14:35:14,495 WARN clear all config-info-beta failed.
+
+2023-06-05 14:35:14,495 WARN clear all config-info-beta-tenant failed.
+
+2023-06-05 14:35:14,501 INFO start clear all config-info-tag.
+
+2023-06-05 14:35:14,502 WARN clear all config-info-tag failed.
+
+2023-06-05 14:35:14,502 WARN clear all config-info-tag-tenant failed.
+
+2023-06-05 14:48:42,684 INFO notifyConnectTimeout:200
+
+2023-06-05 14:48:42,687 INFO notifySocketTimeout:8000
+
+2023-06-05 14:48:42,687 INFO isHealthCheck:true
+
+2023-06-05 14:48:42,687 INFO maxHealthCheckFailCount:12
+
+2023-06-05 14:48:42,687 INFO maxContent:10485760
+
+2023-06-05 14:48:45,484 INFO use local db service for init
+
+2023-06-05 14:48:46,128 WARN Lexical error at line 4, column 66.  Encountered: <EOF> after : "".
+
+2023-06-05 14:48:46,131 WARN Syntax error: Encountered "*" at line 1, column 1.
+
+2023-06-05 14:48:46,200 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,254 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,280 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,298 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,314 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,332 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,351 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,369 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,388 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,412 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,431 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,449 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,472 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,490 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,509 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2023-06-05 14:48:46,562 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL230530214235670' defined on 'USERS'.
+
+2023-06-05 14:48:46,573 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'UK_USERNAME_ROLE' defined on 'ROLES'.
+
+2023-06-05 14:48:46,574 WARN Lexical error at line 4, column 13.  Encountered: "`" (96), after : "".
+
+2023-06-05 14:48:46,574 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-06-05 14:48:46,575 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-06-05 14:48:46,575 WARN Lexical error at line 1, column 13.  Encountered: "`" (96), after : "".
+
+2023-06-05 14:48:46,575 INFO use StandaloneDatabaseOperateImpl
+
+2023-06-05 14:48:47,357 WARN DumpService start
+
+2023-06-05 14:48:47,358 INFO start clear all config-info.
+
+2023-06-05 14:48:47,358 WARN clear all config-info failed.
+
+2023-06-05 14:48:47,359 WARN clear all config-info-tenant failed.
+
+2023-06-05 14:48:47,370 INFO start clear all config-info-beta.
+
+2023-06-05 14:48:47,370 WARN clear all config-info-beta failed.
+
+2023-06-05 14:48:47,371 WARN clear all config-info-beta-tenant failed.
+
+2023-06-05 14:48:47,381 INFO start clear all config-info-tag.
+
+2023-06-05 14:48:47,381 WARN clear all config-info-tag failed.
+
+2023-06-05 14:48:47,381 WARN clear all config-info-tag-tenant failed.
+
+2023-06-05 18:52:09,548 INFO notifyConnectTimeout:200
+
+2023-06-05 18:52:09,552 INFO notifySocketTimeout:8000
+
+2023-06-05 18:52:09,552 INFO isHealthCheck:true
+
+2023-06-05 18:52:09,552 INFO maxHealthCheckFailCount:12
+
+2023-06-05 18:52:09,552 INFO maxContent:10485760
+
+2023-06-05 18:52:13,197 INFO use local db service for init
+
+2023-06-05 18:52:14,489 ERROR Failed to start database 'D:\01_WorkPlace\01_Project\clould-project\nacos\data\derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@3d646c37, see the next exception for details.
+
+java.sql.SQLException: Failed to start database 'D:\01_WorkPlace\01_Project\clould-project\nacos\data\derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@3d646c37, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.derby.iapi.error.StandardException: Failed to start database 'D:\01_WorkPlace\01_Project\clould-project\nacos\data\derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@3d646c37, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 15 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Another instance of Derby may have already booted the database D:\01_WorkPlace\01_Project\clould-project\nacos\data\derby-data.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 12 common frames omitted
+2023-06-05 18:53:28,958 INFO notifyConnectTimeout:200
+
+2023-06-05 18:53:28,962 INFO notifySocketTimeout:8000
+
+2023-06-05 18:53:28,962 INFO isHealthCheck:true
+
+2023-06-05 18:53:28,962 INFO maxHealthCheckFailCount:12
+
+2023-06-05 18:53:28,962 INFO maxContent:10485760
+
+2023-06-05 18:53:31,703 INFO use local db service for init
+
+2023-06-05 18:53:32,982 ERROR Failed to start database 'D:\01_WorkPlace\01_Project\clould-project\nacos\data\derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@3d646c37, see the next exception for details.
+
+java.sql.SQLException: Failed to start database 'D:\01_WorkPlace\01_Project\clould-project\nacos\data\derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@3d646c37, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.derby.iapi.error.StandardException: Failed to start database 'D:\01_WorkPlace\01_Project\clould-project\nacos\data\derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@3d646c37, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 15 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Another instance of Derby may have already booted the database D:\01_WorkPlace\01_Project\clould-project\nacos\data\derby-data.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 12 common frames omitted
+2023-06-05 18:54:10,834 INFO notifyConnectTimeout:200
+
+2023-06-05 18:54:10,837 INFO notifySocketTimeout:8000
+
+2023-06-05 18:54:10,837 INFO isHealthCheck:true
+
+2023-06-05 18:54:10,837 INFO maxHealthCheckFailCount:12
+
+2023-06-05 18:54:10,837 INFO maxContent:10485760
+
+2023-06-05 18:54:13,477 INFO use local db service for init
+
+2023-06-05 18:54:14,761 ERROR Failed to start database 'D:\01_WorkPlace\01_Project\clould-project\nacos\data\derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@3d646c37, see the next exception for details.
+
+java.sql.SQLException: Failed to start database 'D:\01_WorkPlace\01_Project\clould-project\nacos\data\derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@3d646c37, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.derby.iapi.error.StandardException: Failed to start database 'D:\01_WorkPlace\01_Project\clould-project\nacos\data\derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@3d646c37, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 15 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Another instance of Derby may have already booted the database D:\01_WorkPlace\01_Project\clould-project\nacos\data\derby-data.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 12 common frames omitted

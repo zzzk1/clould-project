@@ -1,0 +1,40 @@
+2023-05-30 21:32:05,202 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-30 21:32:05,203 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.142.1:7001_true,
+
+2023-05-30 21:32:12,803 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-30 21:32:12,803 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.142.1:7001_true,192.168.142.1:8001_true,
+
+2023-05-30 21:33:03,464 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-30 21:33:03,464 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.142.1:7001_true,
+
+2023-05-30 21:33:20,260 INFO DEFAULT_GROUP@@order-stock {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-30 21:33:20,260 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-stock, ips: 192.168.142.1:8001_true,
+
+2023-05-30 21:33:35,237 INFO {POS} {IP-DISABLED} valid: 192.168.142.1:7001@DEFAULT@DEFAULT_GROUP@@order-service, region: unknown, msg: client timeout after 15000, last beat: 1685453600225
+
+2023-05-30 21:33:35,285 INFO {POS} {IP-DISABLED} valid: 192.168.142.1:8001@DEFAULT@DEFAULT_GROUP@@order-stock, region: unknown, msg: client timeout after 15000, last beat: 1685453600259
+
+2023-05-30 21:33:38,058 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.142.1:7001_false,
+
+2023-05-30 21:33:43,064 INFO service: DEFAULT_GROUP@@order-service {POS} {IP-ENABLED} valid: 192.168.142.1:7001@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-30 21:33:43,997 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-stock, ips: 192.168.142.1:8001_false,
+
+2023-05-30 21:33:49,008 INFO service: DEFAULT_GROUP@@order-stock {POS} {IP-ENABLED} valid: 192.168.142.1:8001@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-30 21:38:40,697 INFO {POS} {IP-DISABLED} valid: 192.168.142.1:7001@DEFAULT@DEFAULT_GROUP@@order-service, region: unknown, msg: client timeout after 15000, last beat: 1685453903696
+
+2023-05-30 21:38:40,743 INFO {POS} {IP-DISABLED} valid: 192.168.142.1:8001@DEFAULT@DEFAULT_GROUP@@order-stock, region: unknown, msg: client timeout after 15000, last beat: 1685453904649
+
+2023-05-30 21:38:55,823 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.142.1:7001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-30 21:38:55,823 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 
+
+2023-05-30 21:38:55,824 INFO DEFAULT_GROUP@@order-stock {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-30 21:38:55,824 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-stock, ips: 
+

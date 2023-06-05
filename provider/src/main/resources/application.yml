@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: provider-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mall
+    username: root
+    password: root
+  jackson:
+    date-format: com.fasterxml.jackson.databind.util.ISO8601DateFormat
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: com.example.mallproject.entity.File
+  mapper-locations: classpath*:mapper/**/*Mapper.xml
+  global-config:
+    db-config:
+      # 1 代表已删除，不配置默认是1，也可修改配置
+      logic-delete-value: 1
+      # 0 代表未删除，不配置默认是0，也可修改配置
+      logic-not-delete-value: 0
+server:
+  port: 8001
+aliyun:
+  oss:
+    # oss对外服务的访问域名
+    endpoint: oss-cn-hongkong.aliyuncs.com
+
+    accessKeyId: LTAI5tDm8yJFqB4bRMwP7nUR
+    # 访问身份验证中用到用户标识
+    # 用户用于加密签名字符串和oss用来验证签名字符串的密钥
+    accessKeySecret: KCxJLisKVdIRjdhYHXk7Jlzv6Qp2Ke
+    # oss的存储空间
+    bucketName: zzzk1-mall-project
+    # 上传文件大小(M)
+    maxSize: 3
+    # 上传文件夹路径前缀
+    dir:
+      prefix: images/

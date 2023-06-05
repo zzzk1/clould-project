@@ -1,0 +1,86 @@
+2023-06-05 14:35:26,153 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 14:35:26,155 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.142.1:7001_true,
+
+2023-06-05 14:35:28,800 INFO DEFAULT_GROUP@@order-stock {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 14:35:28,801 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-stock, ips: 192.168.142.1:8001_true,
+
+2023-06-05 14:44:10,209 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.142.1:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 14:44:10,209 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 
+
+2023-06-05 14:44:10,238 INFO DEFAULT_GROUP@@order-stock {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 14:44:10,238 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-stock, ips: 
+
+2023-06-05 14:44:27,547 INFO DEFAULT_GROUP@@consumer-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 14:44:27,547 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-service, ips: 192.168.142.1:7001_true,
+
+2023-06-05 14:44:31,850 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 14:44:31,850 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.142.1:8001_true,
+
+2023-06-05 14:45:39,185 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 14:45:39,185 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 
+
+2023-06-05 14:45:44,745 INFO DEFAULT_GROUP@@consumer-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.142.1:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 14:45:44,745 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-service, ips: 
+
+2023-06-05 14:45:57,320 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 14:45:57,320 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.142.1:8001_true,
+
+2023-06-05 14:46:22,089 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 14:46:22,089 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 
+
+2023-06-05 14:46:37,455 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 14:46:37,456 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.142.1:8001_true,
+
+2023-06-05 14:49:19,752 INFO DEFAULT_GROUP@@consumer-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 14:49:19,753 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-service, ips: 192.168.142.1:7001_true,
+
+2023-06-05 14:49:23,005 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 14:49:23,005 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.142.1:8001_true,
+
+2023-06-05 15:08:24,230 INFO DEFAULT_GROUP@@consumer-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.142.1:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 15:08:24,230 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-service, ips: 
+
+2023-06-05 15:20:19,848 INFO {POS} {IP-DISABLED} valid: 192.168.142.1:8001@DEFAULT@DEFAULT_GROUP@@provider-service, region: unknown, msg: client timeout after 15000, last beat: 1685949135910
+
+2023-06-05 15:20:19,922 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-06-05 15:20:19,922 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 
+
+2023-06-05 18:49:24,102 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 18:49:24,103 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.142.1:8001_true,
+
+2023-06-05 18:50:51,709 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 18:50:51,709 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 
+
+2023-06-05 18:51:03,957 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 18:51:03,957 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.142.1:8001_true,
+
+2023-06-05 18:51:45,151 INFO DEFAULT_GROUP@@consumer-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.142.1:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 18:51:45,151 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-service, ips: 192.168.142.1:7001_true,
+
+2023-06-05 18:53:08,962 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.142.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 18:53:08,962 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 
+
+2023-06-05 18:53:10,343 INFO DEFAULT_GROUP@@consumer-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.142.1:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-06-05 18:53:10,344 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@consumer-service, ips: 
+
