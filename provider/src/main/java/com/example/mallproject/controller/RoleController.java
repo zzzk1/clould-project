@@ -2,8 +2,8 @@ package com.example.mallproject.controller;
 
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.example.mallproject.common.api.Result;
-import com.example.mallproject.common.utils.ValidatorUtils;
+import api.Result;
+import utils.ValidatorUtils;
 import com.example.mallproject.entity.Role;
 import com.example.mallproject.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;

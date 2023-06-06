@@ -1,4 +1,4 @@
-package com.example.mallproject.common.api;
+package api;
 
 import lombok.Data;
 

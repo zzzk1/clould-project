@@ -1,7 +1,7 @@
 package com.example.mallproject.config;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.example.mallproject.common.utils.JwtUtil;
+import utils.JwtUtil;
 import com.example.mallproject.entity.User;
 import com.example.mallproject.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

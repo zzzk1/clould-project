@@ -2,7 +2,7 @@ package com.example.mallproject.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.example.mallproject.common.utils.FileUtil;
+import utils.FileUtil;
 import com.example.mallproject.entity.File;
 import com.example.mallproject.service.FileService;
 import com.example.mallproject.mapper.FileMapper;

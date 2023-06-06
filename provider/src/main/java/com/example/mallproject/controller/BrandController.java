@@ -2,7 +2,7 @@ package com.example.mallproject.controller;
 
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.example.mallproject.common.api.Result;
+import api.Result;
 import com.example.mallproject.entity.SpuInfo;
 import com.example.mallproject.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,7 @@ public class BrandController {
     @Autowired
     private BrandService brandService;
 
-    @GetMapping
+    @RequestMapping(value = "getById")
     public Result<Page<SpuInfo>> getSpuByBrandId(@RequestParam(value = "id", defaultValue = "2") int id,
                                                  @RequestParam(value = "curr", defaultValue = "1") int curr,
                                                  @RequestParam(value = "size", defaultValue = "5") int size) {

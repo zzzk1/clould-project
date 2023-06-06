@@ -1,10 +1,10 @@
-package com.example.mallproject.common.api;
+package api;
 
 /**
  * @author zzzk1
  */
 
-public enum ResultCode implements IerrorCode{
+public enum ResultCode implements IerrorCode {
 
     SUCCESS(200, "操作成功"),
     FAILED(500, "操作失败"),

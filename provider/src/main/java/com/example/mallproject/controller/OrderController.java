@@ -2,7 +2,7 @@ package com.example.mallproject.controller;
 
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.example.mallproject.common.api.Result;
+import api.Result;
 import com.example.mallproject.entity.Order;
 import com.example.mallproject.entity.dto.OrderDTO;
 import com.example.mallproject.service.OrderService;

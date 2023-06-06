@@ -1,4 +1,4 @@
-package com.example.mallproject.common.Exception;
+package Exception;
 
 /**
  * @author zzzk1

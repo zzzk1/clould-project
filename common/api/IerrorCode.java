@@ -1,4 +1,4 @@
-package com.example.mallproject.common.api;
+package api;
 
 public interface IerrorCode {
     long getCode();

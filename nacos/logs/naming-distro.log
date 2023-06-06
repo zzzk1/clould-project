@@ -14,3 +14,17 @@
 
 2023-06-05 18:55:37,287 INFO [DISTRO-WARN] RecordListener not found, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@provider-service
 
+2023-06-05 20:11:26,345 INFO [DISTRO-WARN] RecordListener not found, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@consumer-service
+
+2023-06-05 20:11:26,345 INFO [DISTRO-WARN] RecordListener not found, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@provider-service
+
+2023-06-05 22:43:07,298 INFO [DISTRO-WARN] RecordListener not found, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@consumer-service
+
+2023-06-05 22:43:07,299 INFO [DISTRO-WARN] RecordListener not found, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@provider-service
+
+2023-06-06 09:59:37,281 INFO [DISTRO-WARN] RecordListener not found, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@consumer
+
+2023-06-06 09:59:37,282 INFO [DISTRO-WARN] RecordListener not found, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@provider
+
+2023-06-06 10:01:17,079 INFO distro notifier started
+

@@ -1,13 +1,13 @@
 package com.example.mallproject.controller;
 
 
+import api.Result;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.example.mallproject.common.api.Result;
-import com.example.mallproject.common.utils.ValidatorUtils;
 import com.example.mallproject.entity.Category;
 import com.example.mallproject.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import utils.ValidatorUtils;
 
 import java.util.List;
 import java.util.stream.Stream;

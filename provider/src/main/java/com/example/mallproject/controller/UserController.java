@@ -1,9 +1,9 @@
 package com.example.mallproject.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.example.mallproject.common.api.Result;
-import com.example.mallproject.common.utils.JwtUtil;
-import com.example.mallproject.common.utils.ValidatorUtils;
+import api.Result;
+import utils.JwtUtil;
+import utils.ValidatorUtils;
 import com.example.mallproject.entity.dto.UserDTO;
 import com.example.mallproject.entity.User;
 import com.example.mallproject.service.UserDTOService;

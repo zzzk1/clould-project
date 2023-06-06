@@ -21,12 +21,12 @@ public class InterceptorConfig implements WebMvcConfigurer {
                 .allowedMethods("*")
                .maxAge(3600L);
    }
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(authenticationInterceptor())
-                .addPathPatterns("/**")  // 拦截所有请求，通过判断token是否合法来决定是否需要登录
-                .excludePathPatterns("/user/login", "/user/register", "/**/export", "/**/import", "/file/**");
-    }
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(authenticationInterceptor())
+//                .addPathPatterns("/**")  // 拦截所有请求，通过判断token是否合法来决定是否需要登录
+//                .excludePathPatterns("/user/login", "/user/register", "/**/export", "/**/import", "/file/**");
+//    }
 
     @Bean
     public JwtInterceptor authenticationInterceptor() {

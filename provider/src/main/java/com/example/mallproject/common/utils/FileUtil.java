@@ -1,6 +1,5 @@
 package com.example.mallproject.common.utils;
 
-import com.baomidou.mybatisplus.annotation.DbType;
 import com.example.mallproject.entity.File;
 import org.springframework.util.DigestUtils;
 import org.springframework.web.multipart.MultipartFile;

@@ -1,6 +1,6 @@
 package com.example.mallproject.controller;
 
-import com.example.mallproject.common.api.Result;
+import api.Result;
 import com.example.mallproject.entity.SpuInfo;
 import com.example.mallproject.service.SpuInfoService;
 import org.springframework.beans.factory.annotation.Autowired;

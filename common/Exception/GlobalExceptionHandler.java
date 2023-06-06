@@ -1,7 +1,7 @@
-package com.example.mallproject.common.Exception;
+package Exception;
 
-import com.example.mallproject.common.api.Result;
-import com.example.mallproject.common.api.ResultCode;
+import api.Result;
+import api.ResultCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

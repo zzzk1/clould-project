@@ -1,8 +1,6 @@
-package com.example.mallproject.common.Exception;
-
-import com.example.mallproject.common.api.ResultCode;
+package Exception;
+import api.ResultCode;
 import lombok.Getter;
-
 /**
  * @author zzzk1
  */

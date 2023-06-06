@@ -1,8 +1,6 @@
 package com.example.mallproject.controller;
 
-
-import com.example.mallproject.common.api.Result;
-import com.example.mallproject.common.utils.ValidatorUtils;
+import api.Result;
 import com.example.mallproject.entity.Dict;
 import com.example.mallproject.entity.Menu;
 
@@ -10,6 +8,7 @@ import com.example.mallproject.service.DictService;
 import com.example.mallproject.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import utils.ValidatorUtils;
 
 import java.util.List;
 import java.util.stream.Collectors;

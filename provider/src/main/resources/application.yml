@@ -1,6 +1,6 @@
 spring:
   application:
-    name: provider-service
+    name: provider
   cloud:
     nacos:
       discovery:
