@@ -47638,3 +47638,9 @@
 
 2023-06-06 12:59:26,435 INFO [long-pulling] client count 0
 
+2023-06-06 12:59:36,197 INFO toNotifyTaskSize = 0
+
+2023-06-06 12:59:36,197 INFO groupCount = 0, subscriberClientCount = 0, subscriberCount = 0
+
+2023-06-06 12:59:36,448 INFO [long-pulling] client count 0
+
