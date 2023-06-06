@@ -4,6 +4,7 @@ package com.example.mallproject.controller;
 import api.Result;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.mallproject.common.utils.OssUtils;
+import com.example.mallproject.common.utils.ValidatorUtils;
 import com.example.mallproject.entity.File;
 import com.example.mallproject.service.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,6 +49,9 @@ public class OssController {
     public Result<Boolean> deleteFile(@PathVariable Integer id) {
         //返回是否删除成功
         File file = fileService.getById(id);
+        if (file == null) {
+            return Result.Failed(null, "数据不存在");
+        }
         String fileUrl = file.getUrl();
         ossUtils.deleteFile(fileUrl);
         return Result.Success(fileService.remove(fileUrl));
@@ -57,6 +61,9 @@ public class OssController {
     public Result<Boolean> deleteBath(@RequestBody List<Integer> ids) {
         //返回是否删除成功
         List<String> urls = fileService.getUrls(ids);
+        if (urls == null) {
+            return Result.Failed(null, "数据不存在");
+        }
         ossUtils.deleteFile(urls);
         return Result.Success(fileService.remove(ids));
     }
