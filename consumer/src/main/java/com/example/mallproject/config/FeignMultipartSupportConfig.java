@@ -10,6 +10,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Scope;
 
+/**
+ * @author zzzk1
+ */
 @Configuration
 public class FeignMultipartSupportConfig {
     @Autowired
