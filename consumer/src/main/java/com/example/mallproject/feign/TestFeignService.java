@@ -2,6 +2,7 @@ package com.example.mallproject.feign;
 
 import api.Result;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -10,6 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @FeignClient(value="provider",path = "/test")
 public interface TestFeignService {
 
-    @RequestMapping("/login")
+    @GetMapping("/login")
     public Result<String> login();
 }
